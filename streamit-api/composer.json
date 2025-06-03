@@ -1,0 +1,26 @@
+{
+    "name": "iqonic/streamit-api",
+    "authors": [
+        {
+            "name": "Iqonic Design",
+            "email": "hello@iqonic.design"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "8.*",
+        "ext-json": "*",
+        "firebase/php-jwt": "^6.10"
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Includes\\": "./includes"
+        },
+        "files": [
+            "utils/st_helpers.php",
+            "utils/st_admin_panel_helper.php",
+            "utils/st_options_helper.php",
+            "utils/st_membership_helper.php"
+        ]
+    }
+}

@@ -1,0 +1,996 @@
+# Copyright (C) 2024 Iqonic Design
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: streamit-api 9.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/streamit-api\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-31T11:48:22+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+
+#. Plugin Name of the plugin
+#: streamit-api.php
+msgid "streamit-api"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: streamit-api.php
+msgid "https://iqonic.design"
+msgstr ""
+
+#. Description of the plugin
+#: streamit-api.php
+msgid "Streamit api mobile plugin"
+msgstr ""
+
+#. Author of the plugin
+#: streamit-api.php
+msgid "Iqonic Design"
+msgstr ""
+
+#: includes/baseClasses/STActivate.php:111
+#: includes/baseClasses/STActivate.php:112
+#: resources/views/st_options_page.php:2
+msgid "App Options"
+msgstr ""
+
+#: includes/baseClasses/STActivate.php:122
+#: includes/baseClasses/STActivate.php:123
+msgid "App Content"
+msgstr ""
+
+#: includes/baseClasses/STActivate.php:133
+msgid "App Settings"
+msgstr ""
+
+#: includes/baseClasses/STActivate.php:134
+msgid "Settings"
+msgstr ""
+
+#: includes/baseClasses/STActivate.php:226
+msgid "Account login limit exceeded."
+msgstr ""
+
+#: includes/baseClasses/STNotifications.php:49
+msgid "New Arrival"
+msgstr ""
+
+#: includes/baseClasses/STNotifications.php:52
+msgctxt "Firebase notification for new content"
+msgid "%s"
+msgstr ""
+
+#: includes/baseClasses/STNotifications.php:70
+msgid "Membership Subscription Successful"
+msgstr ""
+
+#: includes/baseClasses/STNotifications.php:73
+msgid "Congratulations! You have successfully subscribed to the %s membership plan."
+msgstr ""
+
+#: includes/baseClasses/STPmp.php:23
+msgid "Import PMS Plans"
+msgstr ""
+
+#: includes/baseClasses/STPmp.php:29
+msgid "Import PMS Member's Detail"
+msgstr ""
+
+#: includes/baseClasses/STPmp.php:40
+msgid "Imported Successfully!"
+msgstr ""
+
+#: includes/baseClasses/STPmp.php:67
+msgid "No PMS plans to import"
+msgstr ""
+
+#: includes/baseClasses/STPmp.php:254
+msgid "No Payments Data To Import."
+msgstr ""
+
+#: includes/controllers/api/STCastController.php:62
+msgid "Details not found."
+msgstr ""
+
+#: includes/controllers/api/STCastController.php:137
+msgid "Cast details."
+msgstr ""
+
+#: includes/controllers/api/STCastController.php:162
+#: includes/controllers/api/STCastController.php:232
+#: includes/controllers/api/STEpisodeController.php:53
+#: includes/controllers/api/STMembershipController.php:103
+#: includes/controllers/api/STStreamitController.php:109
+#: includes/controllers/api/STStreamitController.php:135
+#: includes/controllers/api/STStreamitController.php:240
+#: includes/controllers/api/STStreamitController.php:268
+#: includes/controllers/api/STStreamitController.php:322
+#: includes/controllers/api/STStreamitController.php:420
+#: includes/controllers/api/STTVShowController.php:105
+#: includes/controllers/api/STUserController.php:589
+#: includes/controllers/api/STUserController.php:615
+#: includes/controllers/api/STUserController.php:659
+#: includes/controllers/api/STUserController.php:703
+#: includes/controllers/api/STUserController.php:742
+msgid "No data found."
+msgstr ""
+
+#: includes/controllers/api/STCastController.php:226
+msgid "Details."
+msgstr ""
+
+#: includes/controllers/api/STEpisodeController.php:61
+msgid "Episode Details"
+msgstr ""
+
+#: includes/controllers/api/STLiveTvController.php:52
+#: includes/controllers/api/STMovieController.php:61
+#: includes/controllers/api/STVideoController.php:102
+msgid "No details found."
+msgstr ""
+
+#: includes/controllers/api/STLiveTvController.php:60
+msgid "Channel Details."
+msgstr ""
+
+#: includes/controllers/api/STMembershipController.php:65
+msgid "No membership plans found."
+msgstr ""
+
+#: includes/controllers/api/STMembershipController.php:71
+msgid "Membership plans."
+msgstr ""
+
+#: includes/controllers/api/STMembershipController.php:111
+msgid "User orders."
+msgstr ""
+
+#: includes/controllers/api/STMembershipController.php:246
+msgid "Something Wrong ! Try Again."
+msgstr ""
+
+#: includes/controllers/api/STMembershipController.php:265
+msgid "Membership order not found"
+msgstr ""
+
+#: includes/controllers/api/STMembershipController.php:273
+msgid "Membership orders"
+msgstr ""
+
+#: includes/controllers/api/STMovieController.php:98
+msgid "Movie Details."
+msgstr ""
+
+#: includes/controllers/api/STMovieController.php:132
+msgid "No movies found."
+msgstr ""
+
+#: includes/controllers/api/STMovieController.php:138
+msgid "Recommended movies."
+msgstr ""
+
+#: includes/controllers/api/STNotificationController.php:122
+msgid "List of Notification"
+msgstr ""
+
+#: includes/controllers/api/STNotificationController.php:128
+#: includes/controllers/api/STNotificationController.php:210
+msgid "No notifications found"
+msgstr ""
+
+#: includes/controllers/api/STNotificationController.php:137
+msgid "No notifications found."
+msgstr ""
+
+#: includes/controllers/api/STNotificationController.php:165
+msgid "All notifications cleared successfully"
+msgstr ""
+
+#: includes/controllers/api/STNotificationController.php:171
+msgid "No notifications found to clear"
+msgstr ""
+
+#: includes/controllers/api/STNotificationController.php:199
+msgid "Notification Count"
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:85
+#: includes/controllers/api/STPlayListController.php:93
+msgid "Playlists not found."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:99
+msgid "Playlists."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:117
+msgid "Playlist type not found."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:129
+msgid "Playlist saved successfully."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:134
+msgid "Something went wrong. Try again."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:154
+msgid "Playlist %s successfully"
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:175
+#: includes/controllers/api/STPlayListController.php:198
+msgid "Playlist is empty."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:204
+msgid "Playlist."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:227
+msgid "Playlist media Not added. Try Again."
+msgstr ""
+
+#: includes/controllers/api/STPlayListController.php:252
+msgid "Playlist media not removed. Try again."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:115
+msgid "Search reasult."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:246
+msgid "Dashboard result."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:328
+msgid "View-all result."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:370
+msgid "Genre result."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:376
+msgid "No genres found."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:426
+msgid "Result."
+msgstr ""
+
+#: includes/controllers/api/STStreamitController.php:463
+msgid "App comman settings."
+msgstr ""
+
+#: includes/controllers/api/STTVShowController.php:69
+msgid "No Details found."
+msgstr ""
+
+#: includes/controllers/api/STTVShowController.php:75
+msgid "TV shows details."
+msgstr ""
+
+#: includes/controllers/api/STTVShowController.php:111
+msgid "Season data."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:215
+msgid "Internal server error"
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:231
+msgid "User registered succesfully."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:256
+msgid "User profile."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:302
+msgid "Profile has been updated succesfully"
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:321
+#: includes/controllers/api/STUserController.php:556
+msgid "User not found."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:327
+msgid "Old password is invalid."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:333
+msgid "Password has been changed successfully."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:346
+msgid "User not found with this email address."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:361
+#: includes/controllers/api/STUserController.php:364
+msgid "Password has been sent successfully to your email address."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:368
+msgid "Something went wrong ! Email not sent. Please try agin."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:391
+msgid "User Deleted Successfully."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:396
+msgid "User not Deleted."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:411
+#: includes/controllers/api/STUserController.php:427
+msgid "Valid token."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:421
+msgid "Token has been expired."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:444
+msgid "Store api nonce."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:461
+#: includes/controllers/api/STUserController.php:497
+#: includes/controllers/api/STUserController.php:539
+msgid "List of logged-in devices."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:467
+#: includes/controllers/api/STUserController.php:532
+msgid "No devices found."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:515
+msgid "All devices are removed."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:595
+msgid "Watchlist result."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:627
+msgid "Added to watchlist."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:636
+msgid "Removed from watchlist."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:665
+#: includes/controllers/api/STUserController.php:709
+#: includes/controllers/api/STUserController.php:748
+msgid "Continue watch Result."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:774
+msgid "Post not found."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:798
+msgid "You unliked this."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:805
+#: includes/controllers/api/STUserController.php:819
+msgid "You liked this."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:854
+msgid "Player ID's."
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:883
+msgid "Player ID's"
+msgstr ""
+
+#: includes/controllers/api/STUserController.php:894
+msgid "Player Id not present | records not available."
+msgstr ""
+
+#: includes/controllers/api/STVideoController.php:75
+msgid "No videos found."
+msgstr ""
+
+#: includes/controllers/api/STVideoController.php:81
+msgid "Video list."
+msgstr ""
+
+#: includes/controllers/api/STVideoController.php:131
+msgid "Details found."
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:60
+msgid "Request ID not found"
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:67
+msgid "Comment ID not found"
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:73
+msgid "Commen author match with current user"
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:88
+msgid "You can not leave comment empty."
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:94
+#: includes/controllers/api/STWPPosts.php:117
+msgid "Something wrong! Try again."
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:102
+msgid "Edit Comments"
+msgstr ""
+
+#: includes/controllers/api/STWPPosts.php:122
+msgid "Comment has been deleted."
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:16
+msgctxt "Post type general name"
+msgid "Live TV"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:17
+msgctxt "Post type singular name"
+msgid "Live TV"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:18
+msgctxt "Admin Menu text"
+msgid "Live TV"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:19
+msgctxt "Add New on Toolbar"
+msgid "Live TV"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:20
+#: resources/views/st_admin_dashboard.php:114
+#: resources/views/st_admin_dashboard.php:277
+#: resources/views/st_admin_live_tv.php:113
+#: resources/views/st_admin_live_tv.php:258
+#: resources/views/st_admin_movie.php:135
+#: resources/views/st_admin_movie.php:337
+#: resources/views/st_admin_tv_show.php:135
+#: resources/views/st_admin_tv_show.php:335
+#: resources/views/st_admin_video.php:135
+#: resources/views/st_admin_video.php:338
+msgid "Add New"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:21
+msgid "Add New Channel"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:22
+msgid "New Channel"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:23
+msgid "Edit Channel"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:24
+msgid "View Channels"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:25
+msgid "All Channels"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:26
+msgid "Search Channels"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:27
+msgid "Parent channel:"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:28
+msgid "No channels found."
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:29
+msgid "No channels found in Trash."
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:30
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Channel Thumbnail"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:31
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set Thumbnail"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:32
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove Thumbnail"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:33
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:34
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Channel archives"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:35
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into channel"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:36
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this channel"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:37
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter channels list"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:38
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Channels list navigation"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:39
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Channels list"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:62
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:63
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:64
+msgid "Search Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:65
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:66
+msgid "All Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:67
+msgid "Parent Category"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:68
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:69
+msgid "Edit Category"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:70
+msgid "Update Category"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:71
+msgid "Add New Category"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:72
+msgid "New Category Name"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:73
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:74
+msgid "Add or remove Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:75
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:76
+msgid "No Categories found."
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:77
+#: resources/views/st_admin_live_tv.php:212
+msgid "Categories"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:126
+msgid "Channel URL type"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:129
+msgid "-- Select type --"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:130
+msgid "URL"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:131
+msgid "Embed"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:132
+msgid "YouTube"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:133
+msgid "HLS"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:134
+msgid "Vimeo"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:139
+msgid "Channel URL"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:186
+#: includes/CPT/iqonicCPTLiveTV.php:207
+msgid "Add Image"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:187
+#: includes/CPT/iqonicCPTLiveTV.php:208
+msgid "Remove Image"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:233
+#: resources/views/st_admin_dashboard.php:50
+#: resources/views/st_admin_dashboard.php:96
+#: resources/views/st_admin_live_tv.php:49
+#: resources/views/st_admin_live_tv.php:96
+msgid "Image"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:248
+msgid "No Image"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:267
+msgid "Select or Upload Media"
+msgstr ""
+
+#: includes/CPT/iqonicCPTLiveTV.php:269
+msgid "Use this media"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:14
+msgid "Home Banner"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:19
+#: resources/views/st_admin_live_tv.php:18
+#: resources/views/st_admin_movie.php:19
+#: resources/views/st_admin_tv_show.php:19
+#: resources/views/st_admin_video.php:19
+msgid "Slides"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:30
+#: resources/views/st_admin_live_tv.php:29
+#: resources/views/st_admin_movie.php:36
+#: resources/views/st_admin_tv_show.php:36
+#: resources/views/st_admin_video.php:36
+msgid "Banner"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:40
+#: resources/views/st_admin_dashboard.php:86
+msgid "Movies / TV Shows / Videos / Live Channels"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:58
+#: resources/views/st_admin_dashboard.php:98
+#: resources/views/st_admin_live_tv.php:98
+msgid "Upload Image"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:76
+#: resources/views/st_admin_live_tv.php:76
+#: resources/views/st_admin_movie.php:93
+#: resources/views/st_admin_tv_show.php:93
+#: resources/views/st_admin_video.php:93
+msgid "Banner 1"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:119
+#: resources/views/st_admin_dashboard.php:124
+#: resources/views/st_admin_live_tv.php:118
+#: resources/views/st_admin_live_tv.php:123
+#: resources/views/st_admin_movie.php:140
+#: resources/views/st_admin_movie.php:145
+#: resources/views/st_admin_tv_show.php:140
+#: resources/views/st_admin_tv_show.php:145
+#: resources/views/st_admin_video.php:140
+#: resources/views/st_admin_video.php:145
+msgid "Slider"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:145
+#: resources/views/st_admin_dashboard.php:218
+#: resources/views/st_admin_live_tv.php:144
+#: resources/views/st_admin_live_tv.php:208
+msgid "Title"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:149
+#: resources/views/st_admin_dashboard.php:222
+msgid "Genres"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:159
+#: resources/views/st_admin_dashboard.php:232
+msgid "Tags"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:169
+#: resources/views/st_admin_dashboard.php:242
+#: resources/views/st_admin_live_tv.php:159
+#: resources/views/st_admin_live_tv.php:223
+msgid "Filter By"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:179
+#: resources/views/st_admin_dashboard.php:252
+msgid "Movie / TV Show / Video / Live Channels"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:189
+#: resources/views/st_admin_dashboard.php:262
+#: resources/views/st_admin_live_tv.php:179
+#: resources/views/st_admin_live_tv.php:243
+msgid "View All"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:207
+#: resources/views/st_admin_live_tv.php:197
+#: resources/views/st_admin_movie.php:254
+#: resources/views/st_admin_tv_show.php:253
+#: resources/views/st_admin_video.php:254
+msgid "Slider 1"
+msgstr ""
+
+#: resources/views/st_admin_dashboard.php:283
+#: resources/views/st_admin_live_tv.php:264
+#: resources/views/st_admin_movie.php:343
+#: resources/views/st_admin_tv_show.php:341
+#: resources/views/st_admin_video.php:344
+msgid "Submit"
+msgstr ""
+
+#: resources/views/st_admin_live_tv.php:13
+msgid "Live TV Banner"
+msgstr ""
+
+#: resources/views/st_admin_live_tv.php:39
+#: resources/views/st_admin_live_tv.php:86
+#: resources/views/st_admin_live_tv.php:169
+#: resources/views/st_admin_live_tv.php:233
+msgid "Channels"
+msgstr ""
+
+#: resources/views/st_admin_live_tv.php:57
+msgid "Upload image"
+msgstr ""
+
+#: resources/views/st_admin_live_tv.php:148
+msgid "Catgories"
+msgstr ""
+
+#: resources/views/st_admin_movie.php:14
+msgid "Movie Banner"
+msgstr ""
+
+#: resources/views/st_admin_panel.php:5
+msgid "Streamit Plugin"
+msgstr ""
+
+#: resources/views/st_admin_panel.php:6
+msgid "v "
+msgstr ""
+
+#: resources/views/st_admin_panel.php:13
+msgid "Home"
+msgstr ""
+
+#: resources/views/st_admin_panel.php:19
+msgid "Movies"
+msgstr ""
+
+#: resources/views/st_admin_panel.php:25
+msgid "TV Shows"
+msgstr ""
+
+#: resources/views/st_admin_panel.php:31
+msgid "Video"
+msgstr ""
+
+#: resources/views/st_admin_panel.php:37
+msgid "Live TV"
+msgstr ""
+
+#: resources/views/st_admin_tv_show.php:14
+msgid "TV Show Banner"
+msgstr ""
+
+#: resources/views/st_admin_video.php:14
+msgid "Video Banner"
+msgstr ""
+
+#: resources/views/st_options_page.php:6
+msgid "General"
+msgstr ""
+
+#: resources/views/st_options_page.php:9
+msgid "Comment"
+msgstr ""
+
+#: resources/views/st_options_page.php:12
+msgid "Limit Logins"
+msgstr ""
+
+#: resources/views/st_options_page.php:15
+#: utils/st_membership_helper.php:64
+msgid "Membership"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:217
+#: utils/st_admin_panel_helper.php:315
+#: utils/st_admin_panel_helper.php:377
+msgid " ( Movie )"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:228
+msgid " ( Live TV )"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:240
+#: utils/st_admin_panel_helper.php:356
+#: utils/st_admin_panel_helper.php:398
+msgid " ( TV Show )"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:252
+#: utils/st_admin_panel_helper.php:273
+#: utils/st_admin_panel_helper.php:294
+msgid " ( Video )"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:335
+msgid " ( Live Tv )"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:407
+msgid "None"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:411
+msgid "Latest"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:415
+msgid "Upcoming"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:419
+msgid "Most Liked"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:423
+msgid "Most Viewed"
+msgstr ""
+
+#: utils/st_admin_panel_helper.php:427
+msgid "Top 10"
+msgstr ""
+
+#: utils/st_helpers.php:24
+msgid "Authorization failed"
+msgstr ""
+
+#: utils/st_helpers.php:99
+msgid "Algorithm not supported, see https://www.rfc-editor.org/rfc/rfc7518#section-3"
+msgstr ""
+
+#: utils/st_helpers.php:153
+msgid " field is required"
+msgstr ""
+
+#: utils/st_helpers.php:154
+msgid " has invalid email address"
+msgstr ""
+
+#: utils/st_helpers.php:971
+msgid "Media added to playlist successfully."
+msgstr ""
+
+#: utils/st_helpers.php:984
+msgid "Media removed from playlist successfully."
+msgstr ""
+
+#: utils/st_helpers.php:1016
+msgid "Failed to update comment rating."
+msgstr ""
+
+#: utils/st_helpers.php:1021
+msgid "Comment rating."
+msgstr ""
+
+#: utils/st_membership_helper.php:67
+msgid "You've subscribed to the %s"
+msgstr ""
+
+#: utils/st_membership_helper.php:325
+msgid "In-App Purchase"
+msgstr ""
+
+#: utils/st_membership_helper.php:329
+msgid "Play store identifier (Google)"
+msgstr ""
+
+#: utils/st_membership_helper.php:333
+msgid "Enter in-app purchase identifier for the Play Store (Andorid device: Google play store)."
+msgstr ""
+
+#: utils/st_membership_helper.php:338
+msgid "App store identifier (IOS)"
+msgstr ""
+
+#: utils/st_membership_helper.php:342
+msgid "Enter in-app purchase identifier for the App Store (IOS device)."
+msgstr ""
+
+#: utils/st_options_helper.php:453
+msgid "Instructions !"
+msgstr ""
+
+#: utils/st_options_helper.php:455
+msgid "In order for the in-app purchase feature to work,"
+msgstr ""
+
+#: utils/st_options_helper.php:456
+msgid "- You must enter the `Entitlement ID` and one of the API keys according to your app."
+msgstr ""
+
+#: utils/st_options_helper.php:457
+msgid "- Enter both API keys if your app supports iOS and Android."
+msgstr ""
